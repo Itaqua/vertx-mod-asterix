@@ -1,0 +1,7 @@
+#!/bin/bash
+#customizado de Octavio para correr en el groovy que debe
+# delete the modules in mods to downloadit if they change....
+rm -Rf mods
+
+#run vertex interpreted
+vertx runmod itaqua~mod-asterisk~1.0.0 -conf conf.json -cp src/main/groovy:src/main/resources

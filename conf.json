@@ -1,7 +1,12 @@
 {
-    "address"  : "asterisk-local",
-    "host"     : "asterisk.localhost",
-    "username" : "manager",
-    "secret"   : "password"
+    // "address"  : "asterisk-local",
+    // "host"     : "asterisk.localhost",
+    // "username" : "manager",
+    // "secret"   : "password"
+   
+   "address"  : "asterisk-local",
+   "host"     : "pbx.servicenter.sunset.com",
+   "username" : "octavio",
+   "secret"   : "sys73xrv"
 }
 

@@ -58,8 +58,7 @@ class AsteriskVerticle extends Verticle{
         port     = getOptionalIntConfig("port", 5038)
         username = getMandatoryStringConfig("username")
         secret   = getMandatoryStringConfig("secret")
-
-        eventsAddress = address + ".event"
+        eventsAddress = getOptionalStringConfig("address.event", address + ".event")
     }
 
     protected getMandatoryStringConfig(String fieldName) {
