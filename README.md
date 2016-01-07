@@ -18,5 +18,8 @@ events).
 
 Requirements
 ------------
- * vertx 2.1RC1
+ * vertx 2.1
+
+If you're looking for a version that works on Vertx 3 check the master branch or the 3.x branch Tag
+
 
